@@ -1,0 +1,9 @@
+[submodule "Pilot"]
+	path = Pilot
+	url = https://github.com/DiOS-Analysis/Pilot.git
+[submodule "Worker"]
+	path = Worker
+	url = https://github.com/DiOS-Analysis/Worker.git
+[submodule "Backend"]
+	path = Backend
+	url = https://github.com/DiOS-Analysis/Backend.git
