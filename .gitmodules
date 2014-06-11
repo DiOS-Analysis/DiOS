@@ -7,3 +7,6 @@
 [submodule "Backend"]
 	path = Backend
 	url = https://github.com/DiOS-Analysis/Backend.git
+[submodule "Analyzer/BasicAnalyzer"]
+	path = Analyzer/BasicAnalyzer
+	url = https://github.com/DiOS-Analysis/BasicAnalyzer.git
