@@ -8,4 +8,8 @@ UI testing support provided by the official Apple development tools. Originally,
 
 One of the core features of DiOS is its pluggable architecture. While apps are automatically executed and user interaction is simulated using smart execution strategies, any analysis component can be integrated easily.
 
-The full report as well as videos demonstrating DiOS in action are available from our project site: https://www1.cs.fau.de/dios/.
+Basically, the DiOS system consists of three major parts: a [backend](https://github.com/DiOS-Analysis/Backend) that is mainly used as central data storage, a [worker](https://github.com/DiOS-Analysis/Worker) used as connecting link between the backend and any number of attached iOS devices, and several [client components](https://github.com/DiOS-Analysis/Pilot) running on the connected iOS devices. Each of these components will be explained in more detail within the appropriate repository.
+
+* For general questions on DiOS, please contact us at dios@i1.cs.fau.de. For feature requests or bug reports, please use the issue tracking system: https://github.com/DiOS-Analysis/DiOS/issues.
+
+* The [full report](http://opus4.kobv.de/opus4-fau/files/4755/report.pdf) as well as videos demonstrating DiOS in action are available from our project site: https://www1.cs.fau.de/dios/.
